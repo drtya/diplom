@@ -1,0 +1,10 @@
+.social {
+    display: flex;
+    align-items: center;
+    gap: clamp(3px, 1vw, 10px);
+
+    &_img {
+        width: clamp(25px,3vw,35px);
+        height: clamp(25px,3vw,35px);
+    }
+}

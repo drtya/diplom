@@ -1,0 +1,61 @@
+.feetback_title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Kelly Slab";
+    font-size: clamp(24px, 3vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: clamp(25px, 3vw, 45px);
+}
+
+.form_title {
+    color: #FFF;
+    font-family: "Kelly Slab";
+    font-size: clamp(18px, 3vw, 24px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.loading {
+    color: #FFF;
+    font-family: "Kelly Slab";
+    font-size: clamp(16px, 3vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input_error {
+    align-self: flex-start;
+    margin-top: -8px;
+    color: rgb(210, 0, 0);
+    font-family: "Kelly Slab";
+    font-size: clamp(12px, 3vw, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+// .input {
+//     color: #EFEEE2;
+//     font-family: "Kelly Slab";
+//     font-size: 18px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//     padding: 4px 0;
+//     width: 100%;
+//     background: none;
+//     border: none;
+//     outline: none;
+//     border-bottom: 2px solid #FFF;
+//     transition: 0.5s;
+//     &::placeholder {
+//         color: #efeee2ba;
+//     }
+//     &:focus{
+//         border-bottom: 2px solid #ffffff60;
+//     }
+// }

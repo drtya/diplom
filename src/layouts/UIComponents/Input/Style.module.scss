@@ -1,0 +1,31 @@
+.input {
+    color: #EFEEE2;
+    font-family: "Kelly Slab";
+    font-size: clamp(14px,3vw,18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px 0;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffffff60;
+    transition: 0.5s;
+
+    &::placeholder {
+        color: #efeee2ba;
+        transition: 0.5s;
+    }
+
+    &:focus,
+    &:not(:placeholder-shown) {
+        &::placeholder {
+            color: #ffffff60;
+        }
+
+        border-bottom: 2px solid #fff;
+    }
+
+
+}

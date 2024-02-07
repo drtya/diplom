@@ -1,0 +1,43 @@
+@import './grid/bootstrap-grid.min.css';
+@import './fonts/kellyslab/kellyslab.css';
+@import './fonts/manrope/manrope.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #FFF;
+}
+
+body {
+    background: #3E077E;
+}
+
+.empty_place {
+    height: clamp(80px, 8vw, 150px);
+}
+
+.little_empty {
+    height: clamp(40px, 8vw, 60px);
+}

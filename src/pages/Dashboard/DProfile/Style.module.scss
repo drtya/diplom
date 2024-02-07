@@ -1,0 +1,39 @@
+.profile {
+    padding: 40px 0;
+    display: flex;
+    gap: clamp(20px, 3vw, 50px);
+    flex-direction: column;
+
+    &_photo {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        width: clamp(160px, 3vw, 270px);
+
+        &_img {
+            width: 150px;
+            height: 150px;
+            background: green;
+        }
+
+    }
+
+    &_info {
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(14px, 2vw, 20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+
+.test {
+    color: #FFF;
+    font-family: "Kelly Slab";
+    font-size: clamp(12px, 2vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

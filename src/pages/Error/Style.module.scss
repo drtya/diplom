@@ -1,0 +1,37 @@
+.error{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &_title{
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &_msg{
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(18px,3vw,26px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &_back{
+        margin-top: clamp(25px,3vw,60px);
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(14px,3vw,16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: underline;
+        transition: 0.5s;
+        &:hover{
+            color: #7CA0FE;
+        }
+    }
+}

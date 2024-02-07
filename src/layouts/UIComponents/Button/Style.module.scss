@@ -1,0 +1,26 @@
+.button {
+    cursor: pointer;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Kelly Slab";
+    font-size: clamp(14px, 3vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+    &:hover {
+        background: #FFF;
+        color: #3E077E;
+    }
+}
+
+// @media (max-width:410px) {
+//     .button {
+//         &:hover {}
+//     }
+// }

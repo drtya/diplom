@@ -1,0 +1,50 @@
+.about {
+    max-width: 50%;
+    margin: 0 auto;
+    &_company {
+        color: rgba(255, 255, 255, 0.36);
+        text-align: center;
+        font-family: "Kelly Slab";
+        font-size: clamp(10px,3vw,18px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        margin-bottom: clamp(20px,3vw,40px);
+    }
+
+    &_title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Kelly Slab";
+        font-size: clamp(24px,3vw,32px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: clamp(10px,3vw,25px);
+    }
+
+    &_descr {
+        color: #FFF;
+        text-align: center;
+        font-family: "Kelly Slab";
+        font-size: clamp(14px,3vw,20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media (max-width:1200px) {
+    .about{
+        max-width: 70%;
+    }
+    
+}
+
+@media (max-width:830px) {
+    .about{
+        max-width: 80%;
+    }
+    
+}

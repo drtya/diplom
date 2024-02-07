@@ -1,0 +1,118 @@
+.course {
+    display: flex;
+
+    &_box {
+        width: 50%;
+
+        &:last-child {
+            margin-top: 46px;
+            border-left: 2px solid #FFF;
+            padding: 0 2%;
+        }
+    }
+
+    &_title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Kelly Slab";
+        font-size: clamp(24px, 3vw, 32px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: clamp(20px, 3vw, 45px);
+    }
+
+    &_division {
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(14px, 3vw, 18px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &_subdivision {
+        padding-left: clamp(8px, 3vw, 20px);
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(12px, 3vw, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &_info {
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(14px, 3vw, 20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-bottom: clamp(10px,3vw,20px);
+    }
+
+    &_descr {
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(12px, 3vw, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &_test {
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: clamp(8px, 3vw, 20px);
+    }
+
+    &_btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: clamp(15px, 3vw, 40px) auto 0;
+    }
+}
+
+.content {
+    &_title {
+        text-align: center;
+        color: #FFF;
+        font-family: "Kelly Slab";
+        font-size: clamp(16px,3vw,22px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: clamp(10px,3vw,20px);
+    }
+
+
+}
+
+@media (max-width:770px) {
+    .course {
+        flex-direction: column-reverse;
+
+        &_box {
+            width: 100%;
+
+            &:last-child {
+                
+                border-left: 0;
+                border-bottom: 1px solid #ffffff50;
+                padding: 0;
+                padding-bottom: 15px;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
